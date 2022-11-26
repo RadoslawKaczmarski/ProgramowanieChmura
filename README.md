@@ -27,9 +27,9 @@ git checkout Wykres
 docker build -t wykres:v1.0 . 
 ```
 
-5. Uruchamiamy kontener wraz z '/bin/bash'
+5. Uruchamiamy kontener:
 ```
-docker run --rm -it -p 5000:5000 wykres:v1.0 /bin/bash
+docker run --rm -it -p 5000:5000 wykres:v1.0
 ```
 
 6. Korzystamy z linku [Localhost:5000](http://127.0.0.1:5000/plot/a:2.0/b:5.0/c:8.0/xmin:-6/xmax:6/ymin:0/ymax:24)
